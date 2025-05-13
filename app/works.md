@@ -16,7 +16,7 @@ footer: true
       <div>
         <h1>{{ work.title }}</h1>
         <h3>Worked on: <span class="font-medium text-[var(--vp-c-brand-1)]">{{ work.episode }}</span></h3>
-        <p>{{ work.description }}</p>
+        <!-- <p>{{ work.description }}</p> -->
       </div>
     </div>
   </div>
@@ -27,28 +27,28 @@ const works = [
   {
     id: 1,
     title: "BORUTO: NARUTO NEXT GENERATIONS",
-    episode: "S1, EP265 (Key Animation)",
+    episode: "S1, EP265 (Key Animator)",
     description: "Naruto was a young shinobi with an incorrigible knack for mischief. He achieved his dream to become the greatest ninja in the village and his face sits atop the Hokage monument. But this is not his story... A new generation of ninja are ready to take the stage, led by Naruto's own son, Boruto!",
     image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97938-BnF6M5yTaNB1.jpg"
   },
   {
     id: 2,
     title: "Luminous Witches",
-    episode: "S1, EP11 (Key animation)",
+    episode: "S1, EP11 (Key Animator)",
     description: "The war against invading aliens can’t be won by missiles alone! Team morale matters just as much as launching a counterassault, and that’s where Ginny and her friends come in. Instead of standing on the front lines with the 501st Joint Fighter Wing, the Luminous Witches of the League of Nations Air Force bring smiles to civilians displaced in the human-Neuroi war world with thrilling song and dance — not to mention aerial displays the likes of which the music world has never seen! While they might be non-combatants, these performers know the value of preserving the people’s smiles, and they’ll fight in their unique way to make sure those smiles never fade.",
     image: "https://cdn.myanimelist.net/images/anime/1085/125306.jpg"
   },
   {
     id: 3,
     title: "RWBY: Hyousetsu Teikoku",
-    episode: "S1, EP11 (Key animation)",
+    episode: "S1, EP11 (Key Animator)",
     description: "In the world of Remnant, a place where science and fairy tales coexist, human civilization is plagued by deadly monsters known as the Grimm. For a time, victory by the Grimm seemed all but certain, if not for the heroism of those sworn to protect humanity -- Huntsmen and Huntresses. These warriors are trained and assembled into teams at schools like Beacon Academy, where Ruby meets Weiss and Blake -- forming Team RWBY along with Ruby’s sister, Yang. While team RWBY studies to become the greatest Huntresses the world of Remnant has ever known, they are faced with a horrifying threat..",
     image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146668-JNIr7FRzEUaM.jpg"
   },
   {
     id: 4,
     title: "Boku No Hero Academia",
-    episode: "S6, E18 (Key animation)",
+    episode: "S6, E18 (Key Animator)",
     description: "With Tomura Shigaraki at its helm, the former Liberation Army is now known as the Paranormal Liberation Front. This organized criminal group poses an immense threat to the Hero Association, not only because of its sheer size and strength, but also the overpowering quirks of Jin 'Twice' Bubaigawara and Gigantomachia.",
     image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139630-3v4gxWtNZxLV.jpg"
   },
@@ -114,6 +114,13 @@ const works = [
     episode: "S1, EP12 (Animation Director) ",
     description: "Ein has been saddled with the job of 'Appraiser,' the weakest and least fortunate of all the jobs one can be born with, as the only power it grants is the ability to appraise things. Treated cruelly by all and reduced to a litter collector by his peers, Ein has grown to hate himself and lives his days in spineless self-abasement. But when he meets Yuuri, the spirit of the World Tree, and her protector, Ursula the sage, Ein's fate takes a drastic turn.",
     image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178548-4QkzBuJAx8w7.jpg"
+  },
+  {
+    id: 14,
+    title: "The Lord of the Rings: Rohan no Tatakai",
+    episode: "(Animation Director) ",
+    description: "The Lord of the Rings: Rohan no Tatakai",
+    image: "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185613-9zocGYsTHeO5.jpg",
   }
 ]
 </script>
