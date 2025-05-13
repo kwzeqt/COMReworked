@@ -11,8 +11,12 @@ footer: true
 
 ## COM Studio
 
-COM Studio is a UAE-based animation house that partners exclusively with fellow studios to craft wholly original animations for entertainment, education and corporate marketing. Our seasoned team—each member bringing at least five years of industry experience—works hand in hand with clients to deliver bespoke, captivating animations that convey your message with clarity and drive real results.
+At COM Studio, we're passionate about bringing authentic Japanese animation to the rest of the world. Our team is dedicated to keeping anime, and the Japanese culture that surrounds it, fully intact with our animation.
 
-## Our Vision
+## Our Mission
 
-We are committed to creating animations that inspire, educate, and entertain. Our vision is to be the go-to animation house for clients seeking to bring their ideas to life with original, high-quality animations.
+After decades of hard work, it's time for animators to get paid fairly, without wage disparities between animators and executives, we also want to offer a chance to people who help us make anime, to share in some of the profits, so we can make this something we all support, and gain from mutually, promoting authentic hand-drawn animation, this is the goal of COM.
+
+## Global Reach
+
+While rooted in Dubai, United Arab Emirates, our work has reached audiences worldwide. We collaborate with international partners and participate on the world stage of anime every day.
