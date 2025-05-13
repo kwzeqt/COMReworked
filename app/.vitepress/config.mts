@@ -75,6 +75,7 @@ export default defineConfig({
     },
 
     footer: {
+      message: 'Created by Kwzeqt',
       copyright: 'Copyright  2025 COM Studio. All rights reserved.',
     },
 
