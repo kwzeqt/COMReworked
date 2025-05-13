@@ -4,7 +4,7 @@ layout: home
 hero:
   name: 'COM Studio'
   text: 'Official 2D Animation Studio'
-  tagline: Since 2020
+  tagline: Since 2025
   image:
     light: light.svg
     dark: dark.svg
