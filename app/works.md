@@ -5,22 +5,20 @@ sidebar: false
 footer: true
 ---
 
-<div class="mt-12 flex flex-col justify-center items-center p-10">
-  <div class="text-4xl font-medium text-center">WORKS</div>
+<div class="mt-25">
+  <div class="text-4xl font-medium flex justify-center items-center text-center">WORKS</div>
 </div>
 
-<div class="mt-20 my-25 mx-10">
-  <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-10 justify-items-center items-center">
-    <div v-for="work in works" :key="work.id" class="flex flex-col sm:flex-col md:flex-row justify-center gap-4 border-2 border-[var(--vp-c-brand-1)] rounded-xl p-4 max-w-[50vw]">
-      <img class="min-w-1/4 h-100 object-fill rounded-xl" :src="work.image">
-      <div>
-        <h1>{{ work.title }}</h1>
-        <h3>Worked on: <span class="font-medium text-[var(--vp-c-brand-1)]">{{ work.episode }}</span></h3>
-        <!-- <p>{{ work.description }}</p> -->
-      </div>
+<section class="mt-12 px-8">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+    <div v-for="work in works" :key="work.id" class="flex flex-col border-2 border-[var(--vp-c-brand-1)] rounded-xl p-4 shadow-md">
+      <img :src="work.image" alt="work.title" class="w-full h-64 object-cover rounded-lg mb-4" />
+      <h1 class="text-xl font-semibold mb-2">{{ work.title }}</h1>
+      <h3>{{ work.episode }}</h3>
+      <!-- <p class="text-base">{{ work.description }}</p> -->
     </div>
   </div>
-</div>
+</section>
 
 <script setup>
 const works = [
@@ -138,6 +136,7 @@ h3 {
   font-weight: 500;
   margin-top: 15px;
   margin-bottom: 10px;
+  color: var(--vp-c-brand-1)
 }
 p {
   font-size: 1rem;
