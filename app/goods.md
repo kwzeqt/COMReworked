@@ -16,7 +16,7 @@ footer: true
     <img class="w-full max-h-full object-cover rounded-xl"src="https://public-files.gumroad.com/4x4fl9ieft81glgmq9upj90je62n" alt="alt">
       <div class="flex flex-col justify-center items-center">
         <div class="mt-4 text-xl p-1 mb-2">Breaking Into Anime As A Foreigner</div>
-        <div class="flex flex-row gap-20 items-center font-medium text-xl">20$
+        <div class="flex flex-row gap-20 items-center font-medium text-xl">14$
         <a class="button" href="https://cyrusrebello.gumroad.com/l/rkqdj" target="_blank">Buy</a>
         </div>
       </div>
