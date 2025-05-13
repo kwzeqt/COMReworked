@@ -4,8 +4,24 @@ export default defineConfig({
   title: ' ',
   description: '2D Animation Studio',
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/light.svg', media: '(prefers-color-scheme: light)' }],
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/dark.svg', media: '(prefers-color-scheme: dark)' }]
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: '/light.svg',
+        media: '(prefers-color-scheme: light)',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: '/dark.svg',
+        media: '(prefers-color-scheme: dark)',
+      },
+    ],
   ],
   themeConfig: {
     nav: [
@@ -63,9 +79,8 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'x', link: 'https://x.com/COMStudio' },
-      { icon: 'youtube', link: 'https://www.youtube.com/@COMStudio' },
-      { icon: 'discord', link: 'https://discord.com/invite/com' },
+      { icon: 'x', link: 'https://x.com/COM_Animation' },
+      { icon: 'youtube', link: 'https://www.youtube.com/@COM-Project' },
     ],
   },
 });
